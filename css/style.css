@@ -1,0 +1,63 @@
+:root {
+  --mh: 80vh;
+}
+div.header {
+    position: static;
+    width: 94.3vw;
+    height: 3.5vh;
+    background-color: #e2eae1;
+    color: green ;
+    font-size:3vh;
+    padding: 1vh;
+}
+#page1 {
+    position: absolute;
+    top: 9;
+    width: 95vw;
+    height: 80vh;
+    background: #e2eae1;
+    font-size:3vh;
+    padding: 0.5vh;
+    z-index: 1 ;
+} 
+#page2 {
+    position: absolute ;
+    top: 9 ;
+    width: 95vw ;
+    height: 80vh ;
+    background: #e2eae1 ;
+    font-size:3vh ;
+    padding: 0.5vh ;
+    z-index: 2 ;
+
+} 
+
+div.footer {
+    position: absolute;
+    top: 91vh;
+    width: 95vw;
+    height: 8vh;
+    padding: 0.5vh;
+    background-color: #e2eae1;
+    font-size:2.5vh
+}
+
+#control {
+    position: absolute;
+    top: 11px;
+    right: 120px;
+    width: 60px;
+    height: 3,5vh;
+    background-color: #e2eae1;
+    font-size:2.5vh
+}
+
+/*
+th{
+    align: left ;
+}
+
+td{
+    align: left ;
+}
+*/
