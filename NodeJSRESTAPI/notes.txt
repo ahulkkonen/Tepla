@@ -2,3 +2,7 @@ JavaScript parse text -> keywords ie.
 "JSON": id 0
 
 .. __JSON__ is .. -> hyperlinkki lisätään automaattisesti. linkki vie id 0 = json
+
+
+TO-DO:
+1. Lisää topics_history

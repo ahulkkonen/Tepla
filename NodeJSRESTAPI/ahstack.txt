@@ -1,0 +1,7 @@
+1. Backend MySQL
+	-> topic_data on JSON
+	-> topic_data JSON sis‰lt‰‰ Markdownia
+
+2. Frontti on React
+
+3. Editori on osa fronttia
