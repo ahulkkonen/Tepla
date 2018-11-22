@@ -1,14 +1,33 @@
 :root {
   --mh: 80vh;
 }
+
 div.header {
     position: static;
     width: 94.3vw;
-    height: 3.5vh;
-    background-color: #e2eae1;
-    color: green ;
-    font-size:3vh;
+    height: 3vh;
     padding: 1vh;
+    margin:0;
+    background-color: #234567;
+    color: white ;
+    font-size:3.5vh;
+    font-family: sans-serif;
+
+}
+h2{
+        background-color: #123456;
+        color: gray;
+        font-size:2.5vh;
+        font-family: sans-serif;
+        margin: 0
+}
+
+h3{
+        background-color: gray;
+        color:#123456;
+        font-family: sans-serif;
+        font-size:2vh;
+        margin: 0
 }
 #page1 {
     position: absolute;
@@ -16,7 +35,7 @@ div.header {
     width: 95vw;
     height: 80vh;
     background: #e2eae1;
-    font-size:3vh;
+    font-size:2vh;
     padding: 0.5vh;
     z-index: 1 ;
 } 
@@ -26,7 +45,7 @@ div.header {
     width: 95vw ;
     height: 80vh ;
     background: #e2eae1 ;
-    font-size:3vh ;
+    font-size:2vh ;
     padding: 0.5vh ;
     z-index: 2 ;
 
@@ -39,7 +58,7 @@ div.footer {
     height: 8vh;
     padding: 0.5vh;
     background-color: #e2eae1;
-    font-size:2.5vh
+    font-size:1.5vh
 }
 
 #control {
@@ -49,15 +68,5 @@ div.footer {
     width: 60px;
     height: 3,5vh;
     background-color: #e2eae1;
-    font-size:2.5vh
+    font-size:1.5vh
 }
-
-/*
-th{
-    align: left ;
-}
-
-td{
-    align: left ;
-}
-*/
