@@ -1,0 +1,43 @@
+{
+  "id": 0,
+  "title": "JSON",
+  "summary": "JSON: JavaScript Object Notation. JSON on tekstimerkkauskieli tiedon siirtämiseen. JSON on JavaScript'in alijoukko.",
+  "details": "Linkki: [JSON](https://google.fi/?q=json).\nKoodi: ```javascript\nvar s = \"JavaScript syntax highlighting\";alert(s);\n```",
+
+  "resources": [
+    {
+      "title": "Apuväline",
+
+      "subresources": [
+        {
+          "title": "Formaatintarkistin",
+          "content": [
+            {
+              "name": "JSON Formatter Org",
+              "lang": "en",
+              "url": "http://jsonformatter.org/"
+            },
+
+            {
+              "name": "curiousconcept.com",
+              "lang": "en",
+              "url": "http://jsonformatter.curiousconcept.com/"
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "title": "Opiskelusivustoja",
+
+      "content": [
+        {
+          "name": "Tutorialspoint JSON",
+          "lang": "en",
+          "url": "https://www.tutorialspoint.com/json/json_java_example.htm"
+        }
+      ]
+    }
+  ]
+}
