@@ -1,0 +1,42 @@
+{
+  "id": 0,
+  "title": "JSON",
+  "summary": "JSON.md",
+
+  "resources": [
+    {
+      "title": "Apuväline",
+
+      "subresources": [
+        {
+          "title": "Formaatintarkistin",
+          "content": [
+            {
+              "name": "JSON Formatter Org",
+              "lang": "en",
+              "url": "http://jsonformatter.org/"
+            },
+
+            {
+              "name": "curiousconcept.com",
+              "lang": "en",
+              "url": "http://jsonformatter.curiousconcept.com/"
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "title": "Opiskelusivustoja",
+
+      "content": [
+        {
+          "name": "Tutorialspoint JSON",
+          "lang": "en",
+          "url": "https://www.tutorialspoint.com/json/json_java_example.htm"
+        }
+      ]
+    }
+  ]
+}
