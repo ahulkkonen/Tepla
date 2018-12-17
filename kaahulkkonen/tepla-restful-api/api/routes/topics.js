@@ -76,7 +76,8 @@ router.get('/:topicId', (req, res, next) => {
 });
 
 // PATCH (update) single topic
-router.patch('/:topicId', checkAuth, (req, res, next) => {
+router.patch('/:topicId', //checkAuth,
+ (req, res, next) => {
     let id = req.params.topicId;
     let operations = {};
 
@@ -90,7 +91,7 @@ router.patch('/:topicId', checkAuth, (req, res, next) => {
     )
     .exec()
     .then(result => {
-        res.status(200).json(response);
+        res.status(200).json(result);
     })
     .catch(err => {
         console.log(err);
@@ -102,7 +103,8 @@ router.patch('/:topicId', checkAuth, (req, res, next) => {
 });
 
 // DELETE single topic
-router.delete('/:topicId', checkAuth, (req, res, next) => {
+router.delete('/:topicId', //checkAuth,
+ (req, res, next) => {
     let id = req.params.topicId;
 
     // Check if ID is of valid type
@@ -129,7 +131,8 @@ router.delete('/:topicId', checkAuth, (req, res, next) => {
 });
 
 // POST creates new topic
-router.post('/', checkAuth, (req, res, next) => {
+router.post('/', //checkAuth,
+ (req, res, next) => {
     let topic = new Topic({
         _id: new mongoose.Types.ObjectId(),
         name: req.body.name,

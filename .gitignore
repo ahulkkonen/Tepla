@@ -74,3 +74,5 @@ typings/
 
 # FuseBox cache
 .fusebox/
+
+kaahulkkonen/tepla-restful-api/nodemon\.json

@@ -1,8 +1,8 @@
 {
     "env": {
-        "MONGO_USER": "",
-        "MONGO_PASSWORD": "",
-        "JWT_KEY": "",
-        "PORT": 3000
+        "MONGO_USER": "teplauser",
+        "MONGO_PASSWORD": "teplapassword",
+        "JWT_KEY": "RSPs7SCD4KSqMkUl067SttLlNJuqflx47xg2cDTo41fPqGQl87MfCDkhh4SpnDGG",
+        "PORT": 3001
     }
 }
